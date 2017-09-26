@@ -48,33 +48,33 @@ TBmodel_basic<-function(t,n,parameters){
 parameters<-c(
   ### demography parameters based on geography ####
   #################################################
-  pi=0.193/365, #birth rate into the population, per year, for India in 2014
+  pi=0.0193/365, #birth rate into the population, per year, for India in 2014
   i=0.97, #coverage of vaccination, BCG rate, for India average
-  mu = 0.73/365, # standard death rate, in India in 2014
+  mu = (1/70)/365, # standard death rate, in India in 2014, if average life expectancy is 70
   
   ### disease parameters that vary with geography ###
   ####################################################
-  mu_I = 0.036/365, # daily death rate due to disease in India, WHO world TB report
-  mu_T = (0.036/365)/(2), # death rate during treatment, half of mu_I
-  delta = 0.59, # CDR 2015, glbal TB report for India, probability of treatment , will be typically time dependent
+  mu_I = 0.1695/365, # daily death rate due to disease in India, WHO world TB report
+  mu_T = (0.1695/365)/(2), # death rate during treatment, half of mu_I
+  delta = 0.000137, # based on CDR 2015, glbal TB report for India, probability of treatment , will be typically time dependent
   
   ### disease based parameters ####################
   #################################################
   epsilon = 0.0011, #rate of progression to active disease from early latency per day, 
   kappa = 0.01, # rate of progression from early to late latency
   nu = 5.5e-6, #rate of progression to active disease from late latency per day.
-  gamma = 0.167/365, # rate of spontaneous cure, Dowdy et al; 
+  gamma = 0.1638/365, # rate of spontaneous cure, Dowdy et al; 
   o=0.21, # fraction of treated individuals contributing to the transmission rate
-  phi= 2/365, # rate of recovery, per year
-  omega = 0.25, # probability of defaulting treatment
-  beta=24, #contact rate of infection
+  phi= 1.48/365, # rate of recovery, per year
+  omega = 0.43525/365, # probability of defaulting treatment
+  beta=0.1, #contact rate of infection
   chi = 0.49, # fractional reduction in the force of infection corresponding to return from late to early latency
   alpha = 0.5, # fractional reduction in force of infection due to vaccination
-  rho = 0.35 # fractional reduction in infectiousness for people being treated.
+  rho = 0.35 # proportion of infected people who are infectious.
 )
 
 ## Test the model output
-time<-seq(from=0, to=365*5, by=1)
+time<-seq(from=0, to=365*75, by=1)
 nstart=c(S_v=1000000,S_u=1000000, L_a=0, L_b=0, I=1, T_r=0, S_r=0)
 output<-as.data.frame(ode(nstart,time,TBmodel_basic,parameters))
 eqbm<-output[dim(output)[1], ]
@@ -84,7 +84,16 @@ eqbm
 # quartz()
 # plot(round(output$time/365), I_cum, type="l", lwd=2, col=1, ylab="Cumulative Incidence", xlab="Time from infection (years)")
 
+N=output$S_v+output$S_u+output$L_a+output$L_b+output$I+output$T_r+output$S_r #total population
+lamda=as.numeric(parameters["rho"])*( as.numeric(parameters["beta"]) * (output$I+(as.numeric(parameters["o"])*output$T_r) ) )/N # force of infection
 
+quartz()
+par(mfrow=c(2,2), oma=c(0,0,2,0))
+plot(output$time/365, lamda, type="l", lwd=2, main="lamda")
+plot(output$time/365, N, type="l", lwd=2, main="total population")
+plot(output$time/365, output$L_a, type='l', lwd=2, col=4, lty=2, ylim=c(0, max(output$L_a+output$L_b)), xlab="years", ylab="Latents", cex.axis=1.5, cex.lab=1.5 )
+lines(output$time/365, output$L_b, lwd=2, col=2, lty=2)
+plot(output$time/365, output$I, type='l', lwd=2, col=5, lty=2, ylim=c(0, max(output$I)) , xlab="years", ylab="Infecteds", cex.axis=1.5, cex.lab=1.5)
 
 quartz()
 par(mfrow=c(3,2), oma=c(0,0,2,0))
