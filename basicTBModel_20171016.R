@@ -54,8 +54,8 @@ parameters<-c(
   
   ### disease parameters that vary with geography ###
   ####################################################
-  mu_I = 0.1695/365, # daily death rate due to disease in India, WHO world TB report
-  mu_T = (0.1695/365)/(2), # death rate during treatment, half of mu_I
+  mu_I = 0.00045, # daily death rate due to disease in India, WHO world TB report
+  mu_T = 0.00027, # death rate during treatment, half of mu_I
   delta = 0.000137, # based on CDR 2015, glbal TB report for India, probability of treatment , will be typically time dependent
   
   ### disease based parameters ####################
@@ -63,14 +63,14 @@ parameters<-c(
   epsilon = 0.0011, #rate of progression to active disease from early latency per day, 
   kappa = 0.01, # rate of progression from early to late latency
   nu = 5.5e-6, #rate of progression to active disease from late latency per day.
-  gamma = 0.1638/365, # rate of spontaneous cure, Dowdy et al; 
+  gamma = 0.00045, # rate of spontaneous cure, Dowdy et al; 
   o=0.21, # fraction of treated individuals contributing to the transmission rate
-  phi= 1.48/365, # rate of recovery, per year
-  omega = 0.43525/365, # probability of defaulting treatment
+  phi= 0.0041, # rate of recovery, per year
+  omega = 0.0006, # probability of defaulting treatment
   beta=0.1, #contact rate of infection
   chi = 0.49, # fractional reduction in the force of infection corresponding to return from late to early latency
   alpha = 0.5, # fractional reduction in force of infection due to vaccination
-  rho = 0.35 # proportion of infected people who are infectious.
+  rho = 0.3 # proportion of infected people who are infectious. avg over years, see Notifications table , WHO TB report.
 )
 
 ## Test the model output
@@ -89,30 +89,38 @@ lamda=as.numeric(parameters["rho"])*( as.numeric(parameters["beta"]) * (output$I
 
 quartz()
 par(mfrow=c(2,2), oma=c(0,0,2,0))
-plot(output$time/365, lamda, type="l", lwd=2, main="lamda")
-plot(output$time/365, N, type="l", lwd=2, main="total population")
-plot(output$time/365, output$L_a, type='l', lwd=2, col=4, lty=2, ylim=c(0, max(output$L_a+output$L_b)), xlab="years", ylab="Latents", cex.axis=1.5, cex.lab=1.5 )
-lines(output$time/365, output$L_b, lwd=2, col=2, lty=2)
-plot(output$time/365, output$I, type='l', lwd=2, col=5, lty=2, ylim=c(0, max(output$I)) , xlab="years", ylab="Infecteds", cex.axis=1.5, cex.lab=1.5)
 
-quartz()
-par(mfrow=c(3,2), oma=c(0,0,2,0))
-plot(output$time/365, output$S_v, type='l', lwd=2, col=1, ylim=c(0, max(output$S_v+output$S_u)), lty=1, xlab="years", ylab="Susceptibles", cex.axis=1.5, cex.lab=1.5)
-lines(output$time/365, output$S_u, lwd=2, col=3, lty=2)
-legend(x=3, y=max(output$S_v+output$S_u), legend=c("S_v", "S_u"), lwd=2, lty=c(1,1), col=c(1,3), cex=1.5)
+plot(output$time/365, output$S_v/N, type='l', lwd=2, col=1, ylim=c(0, max(c(output$S_v/N,output$S_u/N, output$S_r/N)) ), lty=1, xlab="years", ylab="Susceptibles", cex.axis=1.5, cex.lab=1.5)
+lines(output$time/365, output$S_u/N, lwd=2, col=2)
+lines(output$time/365, output$S_r/N, lwd=2, col=3)
+legend(x=40, y=max(c(output$S_v/N,output$S_u/N, output$S_r/N)), legend=c("S_v", "S_u", "S_r"), lwd=2, lty=1, col=c(1,2,3), cex=1.5)
 
-plot(output$time/365, output$L_a, type='l', lwd=2, col=4, lty=2, ylim=c(0, max(output$L_a+output$L_b)), xlab="years", ylab="Latents", cex.axis=1.5, cex.lab=1.5 )
-lines(output$time/365, output$L_b, lwd=2, col=2, lty=2)
-legend(x=3, y=max(output$L_a+output$L_b), legend=c("L_a", "L_b"), lwd=2, lty=c(1,1), col=c(4,2), cex=1.5)
 
-plot(output$time/365, output$I, type='l', lwd=2, col=5, lty=2, ylim=c(0, max(output$I)) , xlab="years", ylab="Infecteds", cex.axis=1.5, cex.lab=1.5)
-legend(x=3, y=max(output$I), legend=c("I"), lwd=2, lty=1, col=c(5), cex=1.5)
+plot(output$time/365, output$L_a/N, type='l', lwd=2, col=4, lty=2, ylim=c(0, max( c(output$L_a/N,output$L_b/N) )), xlab="years", ylab="Latents", cex.axis=1.5, cex.lab=1.5 )
+lines(output$time/365, output$L_b/N, lwd=2, col=5, lty=2)
+legend(x=3, y=max( c(output$L_a/N,output$L_b/N) ), legend=c("L_a", "L_b"), lwd=2, lty=c(1,1), col=c(4,5), cex=1.5)
 
-plot(output$time/365, output$T_r, type='l', lwd=2, col=6, lty=2, ylim=c(0, max(output$T_r+output$S_r)), xlab="years", ylab="Treated and Susceptibles post treatment", cex.axis=1.5, cex.lab=1.5 )
-lines(output$time/365, output$S_r, lwd=2, col=7, lty=2)
-legend(x=3, y=max(output$T_r+output$S_r), legend=c("T_r", "S_r"), lwd=2, lty=c(1,1), col=c(6,7), cex=1.5)
 
-plot(output$time/365, output$S_r, type='l', lwd=2, col=7, lty=2, xlab="years", ylab="Post treatment Susceptible", cex.axis=1.5, cex.lab=1.5)
-legend(x=3, y=max(output$S_r), legend=c("S_r"), lwd=2, lty=2, col=c(7), cex=1.5)
+plot(output$time/365, output$I/N, type='l', lwd=2, col=6, lty=2, ylim=c(0, max(output$I/N)) , xlab="years", ylab="Infected", cex.axis=1.5, cex.lab=1.5)
+legend(x=3, y=max(output$I/N), legend=c("I"), lwd=2, lty=1, col=c(6), cex=1.5)
 
+plot(output$time/365, output$T_r/N, type='l', lwd=2, col=7, lty=2, ylim=c(0, max(output$T_r/N)), xlab="years", ylab="Treated ", cex.axis=1.5, cex.lab=1.5 )
+legend(x=3, y=max(output$T_r/N), legend=c("T_r"), lwd=2, lty=c(1,1), col=c(7), cex=1.5)
 title(main="Compartmental TB model output", outer=TRUE)
+
+Prev<-((output$I+output$T_r)/N) * 100000
+Inc<-( ((as.numeric(parameters["nu"])*output$L_b) + ( parameters["epsilon"]*output$L_a) )/N )*365 * 100000
+quartz()
+par(mfrow=c(1,2), oma=c(0,0,2,0))
+plot(output$time/365, Prev, type="l", lwd=2, col=8, xlab="years", ylab="Prevelance", cex.axis=1.5, cex.lab=1.5  )
+plot(output$time/365, Inc, type="l", lwd=2, col=9, xlab="years", ylab="Incidence", cex.axis=1.5, cex.lab=1.5  )
+
+# quartz()
+# par(mfrow=c(2,2), oma=c(0,0,2,0))
+# plot(output$time/365, lamda, type="l", lwd=2, main="lamda")
+# plot(output$time/365, N, type="l", lwd=2, main="total population")
+# plot(output$time/365, output$L_a, type='l', lwd=2, col=4, lty=2, ylim=c(0, max(output$L_a+output$L_b)), xlab="years", ylab="Latents", cex.axis=1.5, cex.lab=1.5 )
+# lines(output$time/365, output$L_b, lwd=2, col=2, lty=2)
+# plot(output$time/365, output$I, type='l', lwd=2, col=5, lty=2, ylim=c(0, max(output$I)) , xlab="years", ylab="Infecteds", cex.axis=1.5, cex.lab=1.5)
+
+
