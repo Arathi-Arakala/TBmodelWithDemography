@@ -54,28 +54,36 @@ parameters<-c(
   
   ### disease parameters that vary with geography ###
   ####################################################
-  mu_I = 0.00045, # daily death rate due to disease in India, WHO world TB report
-  mu_T = 0.00027, # death rate during treatment, half of mu_I
-  delta = 0.000137, # based on CDR 2015, glbal TB report for India, probability of treatment , will be typically time dependent
-  
+  mu_I = 0.5/(3*365), # daily death rate due to disease in India, WHO world TB report
+  mu_T = (0.15*2)/365, # death rate during treatment, half of mu_I
+  #delta = 0.59*73/(0.41*365*70*3), # based on CDR 2015, glbal TB report for India, probability of treatment=0.59 , will be typically time dependent
+  delta =0,
   ### disease based parameters ####################
   #################################################
   epsilon = 0.0011, #rate of progression to active disease from early latency per day, 
   kappa = 0.01, # rate of progression from early to late latency
   nu = 5.5e-6, #rate of progression to active disease from late latency per day.
-  gamma = 0.00045, # rate of spontaneous cure, Dowdy et al; 
+  gamma = 0.5/(3*365), # rate of spontaneous cure, Dowdy et al; 
   o=0.21, # fraction of treated individuals contributing to the transmission rate
-  phi= 0.0041, # rate of recovery, per year
-  omega = 0.0006, # probability of defaulting treatment
-  beta=0.1, #contact rate of infection
+  phi= (0.74*2)/365, # rate of recovery, per year. is 74% from golabl TB report for India
+  omega = (0.11*2)/365, # probability of defaulting treatment
+  beta=36.5/365, #contact rate of infection
   chi = 0.49, # fractional reduction in the force of infection corresponding to return from late to early latency
   alpha = 0.5, # fractional reduction in force of infection due to vaccination
   rho = 0.3 # proportion of infected people who are infectious. avg over years, see Notifications table , WHO TB report.
 )
 
+# #Burn in time, 100 years
+# time<-seq(from=0, to=365*100, by=1)
+# nstart=c(S_v=1000000,S_u=1000000, L_a=0, L_b=0, I=1, T_r=0, S_r=0)
+# output<-as.data.frame(ode(nstart,time,TBmodel_basic,parameters))
+# eqbm<-output[dim(output)[1], ]
+# eqbm
+
+
 ## Test the model output
-time<-seq(from=0, to=365*75, by=1)
-nstart=c(S_v=1000000,S_u=1000000, L_a=0, L_b=0, I=1, T_r=0, S_r=0)
+time<-seq(from=0, to=365*500, by=1)
+nstart=c(S_v=1000000,S_u=1000000, L_a=0, L_b=0, I=100, T_r=0, S_r=0)
 output<-as.data.frame(ode(nstart,time,TBmodel_basic,parameters))
 eqbm<-output[dim(output)[1], ]
 eqbm
