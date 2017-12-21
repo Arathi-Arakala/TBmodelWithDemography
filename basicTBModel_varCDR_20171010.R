@@ -67,7 +67,7 @@ parameters<-c(
   o=0, # fraction of treated individuals contributing to the transmission rate
   phi= (0.74*2)/365, # rate of recovery, per year. is 74% from golabl TB report for India
   omega = (0.11*2)/365, # probability of defaulting treatment
-  beta=16/365, #contact rate of infection
+  beta=24/365, #contact rate of infection
   chi = 0.21, # fractional reduction in the force of infection corresponding to return from late to early latency
   alpha = 0.5, # fractional reduction in force of infection due to vaccination
   rho = 0.3 # proportion of infected people who are infectious. avg over years, see Notifications table , WHO TB report.
@@ -146,13 +146,26 @@ colnames(cdr_data_India)<-c("year_India", "cdr_India")
 # params["delta"]
 
 
-
 #Burn in time,> 500 years
-time<-seq(from=1, to=365*700, by=1 )
-nstart=c(S_v=1000000,S_u=1000000, L_a=0, L_b=0, I=1, T_r=0, S_r=0)
+time<-seq(from=1, to=365*200, by=1 )
+nstart=c(S_v=1000000,S_u=1000000, L_a=0, L_b=0, I=3, T_r=0, S_r=0)
 output<-as.data.frame(ode(nstart,time,TBmodel_basic,parameters))
 eqbm<-output[dim(output)[1], ]
 
+#### Calibrate the model beta so that model output in 2000 is approx. that in year 2000 from global TB report
+N=output$S_v+output$S_u+output$L_a+output$L_b+output$I+output$T_r+output$S_r #total population
+
+newI<-((output$L_b)*parameters["nu"])+(output$L_a*parameters["epsilon"]) #new I at every timestep
+# timestep = 1 day = 1/365 years.
+Incidence<- (365)*(newI/N)*100000
+
+quartz()
+par(mfrow=c(1,1), oma=c(0,0,2,0))
+plot(output$time, Incidence, type='l', lwd=2, col=1, pch=1, ylim=c(0, max(MyData_India$e_inc_100k)+200), xlab="years", ylab="Incidence per 100k", cex.axis=1.5, cex.lab=1.5)
+abline(h=MyData_India$e_inc_100k[1]+75, col=2, lwd=2)
+title(paste("beta =", parameters["beta"], sep=""), outer=TRUE)
+
+###########################################################################
 
 N=output$S_v+output$S_u+output$L_a+output$L_b+output$I+output$T_r+output$S_r #total population
 print(c(eqbm$S_v/N[dim(output)[1]], eqbm$S_u/N[dim(output)[1]], eqbm$L_a/N[dim(output)[1]], eqbm$L_b/N[dim(output)[1]], eqbm$I/N[dim(output)[1]], eqbm$T_r/N[dim(output)[1]], eqbm$S_r/N[dim(output)[1]] ))
@@ -263,7 +276,7 @@ lines(MyData_India$year, MyData_India$e_inc_100k, type='l', lty=2, col=2, pch=2,
 legend(1960,max(MyData_India$e_inc_100k), legend = c("model output","global TB report"), lty=c(1,2), col=c(1,2) )
 abline(v=2000, lty=3, col=3, lwd=2)
 
-prev<-(365)*(output_all$I/N+output_all$T_r/N)*100000
+prev<-(output_all$I/N+output_all$T_r/N)*100000
 quartz()
 plot(output_all$time, prev, type='l', lwd=2, col=6, lty=2, xlab="years", ylab="Prevalence", cex.axis=1.5, cex.lab=1.5) #ylim=c(0, max(output_all$I/N)) , 
 
