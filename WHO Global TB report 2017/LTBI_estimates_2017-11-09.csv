@@ -1,0 +1,176 @@
+"country","iso2","iso3","iso_numeric","year","source_hh","e_hh_size","prevtx_data_available","newinc_con04_prevtx","ptsurvey_newinc","ptsurvey_newinc_con04_prevtx","e_prevtx_eligible","e_prevtx_eligible_lo","e_prevtx_eligible_hi","e_prevtx_kids_pct","e_prevtx_kids_pct_lo","e_prevtx_kids_pct_hi"
+"Afghanistan","AF","AFG","004",2016,"Afghanistan living conditions survey (ALCS), 2013-14",7.4,60,15417,,,20000,18000,21000,79,73,87
+"Albania","AL","ALB","008",2016,"Census, 2011",3.8,60,1,,,12,7.5,16,8.6,6.3,13
+"Algeria","DZ","DZA","012",2016,"Dépenses de consommation des ménages algériens en, 2011",6,0,,,,1200,790,1700,,,
+"Angola","AO","AGO","024",2016,"MIS, 2006-2007",5.7,0,,,,28000,25000,30000,,,
+"Argentina","AR","ARG","032",2016,"Census, 2010",3.3,0,,,,380,250,520,,,
+"Armenia","AM","ARM","051",2016,"DHS, 2010",3.6,0,,,,97,88,110,,,
+"Australia","AU","AUS","036",2016,"Census, 2011",2.6,0,,,,32,21,44,,,
+"Austria","AT","AUT","040",2016,"Austrian Labour Force Survey, 2014",2.23,0,,,,10,6.7,14,,,
+"Azerbaijan","AZ","AZE","031",2016,"The State Statistical Committee of the Republic of Azerbaijan, 2014",4.73,60,230,,,270,170,360,86,63,100
+"Bahamas","BS","BHS","044",2016,"Census, 2010",3.4,60,18,,,2.7,1.7,3.6,100,100,100
+"Bahrain","BH","BHR","048",2016,"Household expenditure and income survey, 2005-2006",5.7,60,17,,,9.1,5.9,12,100,100,100
+"Bangladesh","BD","BGD","050",2016,"DHS, 2011",4.6,60,8537,,,49000,45000,53000,17,16,19
+"Belarus","BY","BLR","112",2016,"Census, 2009",2.4,60,1418,,,84,55,110,100,100,100
+"Belgium","BE","BEL","056",2016,"Census, 2011",2.3,0,,,,18,12,25,,,
+"Belize","BZ","BLZ","084",2016,"Census, 2010",4.1,60,0,,,7.3,4.7,9.8,0,0,0
+"Benin","BJ","BEN","204",2016,"DHS, 2011-2012",5,60,1356,,,2300,2100,2500,59,54,65
+"Bhutan","BT","BTN","064",2016,"MICS, 2010",4.6,60,10,,,160,140,170,6.3,5.8,7
+"Bolivia (Plurinational State of)","BO","BOL","068",2016,"Cencus, 2012",3.5,60,1954,,,1900,1700,2100,100,95,100
+"Bosnia and Herzegovina","BA","BIH","070",2016,"Census, 2013",3.26,60,14,,,21,14,29,66,49,100
+"Botswana","BW","BWA","072",2016,"Census, 2011",3.7,0,,,,620,570,680,,,
+"Brazil","BR","BRA","076",2016,"Census, 2010",3.3,0,,,,2700,1800,3700,,,
+"Brunei Darussalam","BN","BRN","096",2016,"Census, 2011",5.8,0,,,,21,13,28,,,
+"Bulgaria","BG","BGR","100",2016,"Census, 2011",2.4,0,,,,20,13,27,,,
+"Burkina Faso","BF","BFA","854",2016,"Enquête Démographique et de  Santé et à Indicateurs Multiples (EDSBF-MICS IV), 2010",5.7,60,754,,,3300,3000,3600,23,21,25
+"Burundi","BI","BDI","108",2016,"DHS, 2010",4.8,60,1171,,,3500,3200,3800,33,31,37
+"Cabo Verde","CV","CPV","132",2016,"Census, 2010",4.2,60,1,,,71,65,78,1.4,1.3,1.5
+"Cambodia","KH","KHM","116",2016,"Census, 2008",4.7,60,1877,,,5200,4800,5700,36,33,39
+"Cameroon","CM","CMR","120",2016,"DHS, 2011",5,0,,,,12000,11000,13000,,,
+"Canada","CA","CAN","124",2016,"Census, 2011",2.5,0,,,,37,24,50,,,
+"Central African Republic","CF","CAF","140",2016,"DHS, 1994-1995",4.9,0,,,,3600,3300,3900,,,
+"Chad","TD","TCD","148",2016,"Census, 2009",5.4,0,,,,4100,3800,4500,,,
+"Chile","CL","CHL","152",2016,"Census, 2002",3.57,60,1170,,,100,67,140,100,100,100
+"China","CN","CHN","156",2016,"Annual statistical book,  2014",2.98,0,,,,10000,6600,14000,,,
+"China, Hong Kong SAR","HK","HKG","344",2016,"Census, 2011",2.9,60,11,,,61,39,82,18,13,28
+"China, Macao SAR","MO","MAC","446",2016,"Census, 2011",3.08,60,2,,,10,6.7,14,19,14,30
+"Colombia","CO","COL","170",2016,"DHS, 2010",3.8,0,,,,590,380,800,,,
+"Comoros","KM","COM","174",2016,"Enquête Démographique et de Santé et à Indicateurs Multiples (EDSC-MICS II) 2012",5.4,60,5,,,52,47,56,9.7,8.9,11
+"Congo","CG","COG","178",2016,"DHS, 2011-2012",4.3,0,,,,2100,1900,2300,,,
+"Costa Rica","CR","CRI","188",2016,"Census, 2011",3.5,60,60,,,19,12,25,100,100,100
+"Côte d'Ivoire","CI","CIV","384",2016,"Census, 2014",5.4,60,3172,,,11000,10000,12000,28,26,31
+"Croatia","HR","HRV","191",2016,"Census, 2011",2.8,2,,,,7.7,5,10,,,
+"Cuba","CU","CUB","192",2016,"Census, 2012",2.84,60,59,,,20,13,27,100,100,100
+"Cyprus","CY","CYP","196",2016,"Census, 2011",2.76,,,,,1.4,0.91,1.9,,,
+"Czechia","CZ","CZE","203",2016,"Census, 2011",2.47,0,,,,11,7.2,15,,,
+"Democratic People's Republic of Korea","KP","PRK","408",2016,"Census, 2008",3.9,60,11707,,,11000,9900,12000,100,99,100
+"Democratic Republic of the Congo","CD","COD","180",2016,"DHS, 2013",5.3,60,4725,,,75000,68000,82000,6.3,5.8,6.9
+"Denmark","DK","DNK","208",2016,"Statistical year book, 2014",2.1,,,,,4.8,3.1,6.5,,,
+"Djibouti","DJ","DJI","262",2016,"MICS, 2006",5.9,60,44,,,690,620,750,6.4,5.9,7
+"Dominican Republic","DO","DOM","214",2016,"DHS, 2013",3.5,60,595,,,200,130,270,100,100,100
+"Ecuador","EC","ECU","218",2016,"Census, 2010",3.78,60,740,,,360,230,490,100,100,100
+"Egypt","EG","EGY","818",2016,"DHS, 2014",4.1,60,467,,,1800,1700,2000,25,23,28
+"El Salvador","SV","SLV","222",2016,"MICS, 2014",3.9,60,76,,,740,670,810,10,9.4,11
+"Equatorial Guinea","GQ","GNQ","226",2016,"Census, 2015",4.7,0,,,,530,480,570,,,
+"Eritrea","ER","ERI","232",2016,"Population and Health Survey, 2014",4.8,60,140,,,520,480,570,27,24,29
+"Estonia","EE","EST","233",2016,"Census, 2011",2.13,0,,,,4,2.6,5.5,,,
+"Ethiopia","ET","ETH","231",2016,"DHS, 2011",4.6,0,,,,28000,26000,31000,,,
+"Fiji","FJ","FJI","242",2016,"Household Income and Expenditure Survey, 2008-2009",4.7,60,30,,,14,9,19,100,100,100
+"Finland","FI","FIN","246",2016,"Statistics Finland, 2014",2.04,0,,,,3.6,2.3,4.9,,,
+"France","FR","FRA","250",2016,"Census, 2012",2.26,0,,,,77,50,100,,,
+"Gabon","GA","GAB","266",2016,"DHS, 2012",4.1,0,,,,1200,1100,1300,,,
+"Gambia","GM","GMB","270",2016,"Census, 2013",8.2,0,,,,1900,1700,2000,,,
+"Georgia","GE","GEO","268",2016,"MICS, 2005",3.64,60,135,,,450,410,480,30,28,33
+"Germany","DE","DEU","276",2016,"Statistical year book, 2015",2.01,0,,,,74,48,100,,,
+"Ghana","GH","GHA","288",2016,"DHS, 2014",3.5,0,,,,3600,3200,3900,,,
+"Greece","GR","GRC","300",2016,"Census, 2011",2.6,,,,,8.5,5.5,12,,,
+"Guatemala","GT","GTM","320",2016,"Encuesta Nacional de Condiciones de Vida,  2014",4.8,60,716,,,1300,1200,1400,55,50,60
+"Guinea","GN","GIN","324",2016,"Enquête Démographique et de Santé et à Indicateurs Multiples, 2012",6.3,60,2546,,,7100,6500,7800,36,33,39
+"Guinea-Bissau","GW","GNB","624",2016,"ILAP, 2010",8.3,60,94,,,2100,1900,2300,4.5,4.1,4.9
+"Guyana","GY","GUY","328",2016,"Census, 2012",3.6,60,3,,,120,110,130,2.6,2.3,2.8
+"Haiti","HT","HTI","332",2016,"DHS, 2012",4.4,60,86,,,4900,4500,5300,1.8,1.6,1.9
+"Honduras","HN","HND","340",2016,"DHS, 2011-2012",4.4,60,2377,,,880,800,960,100,100,100
+"Hungary","HU","HUN","348",2016,"Census, 2011",2.36,,,,,9.9,6.4,13,,,
+"Iceland","IS","ISL","352",2016,"Census, 2011",2.59,,,,,0.21,0.14,0.28,,,
+"India","IN","IND","356",2016,"Census, 2011",4.8,60,6637,,,360000,330000,390000,1.9,1.7,2
+"Indonesia","ID","IDN","360",2016,"DHS, 2012",4,60,948,,,65000,60000,71000,1.5,1.3,1.6
+"Iran (Islamic Republic of)","IR","IRN","364",2016,"Census, 2011",3.55,60,2499,,,360,230,490,100,100,100
+"Iraq","IQ","IRQ","368",2016,"Central statistical organization, 2009",6.7,60,5104,,,680,440,910,100,100,100
+"Ireland","IE","IRL","372",2016,"Census, 2011",2.73,0,,,,8,5.2,11,,,
+"Israel","IL","ISR","376",2016,"Statistical Abstract of Israel, 2015",3.32,0,,,,11,7.1,15,,,
+"Italy","IT","ITA","380",2016,"Census, 2011",2.4,,,,,59,38,79,,,
+"Jamaica","JM","JAM","388",2016,"Census, 2011",3.1,0,,,,4.1,2.7,5.6,,,
+"Japan","JP","JPN","392",2016,"Census, 2010",2.42,60,157,,,290,190,390,54,40,84
+"Jordan","JO","JOR","400",2016,"DHS, 2012",5.1,60,,,,15,9.9,21,100,100,100
+"Kazakhstan","KZ","KAZ","398",2016,"Census, 2009",3.6,60,430,,,3400,3100,3700,13,12,14
+"Kenya","KE","KEN","404",2016,"Kenya Household Health Expenditure AND Utilisation Survey, 2013",4.2,60,3365,,,24000,22000,26000,14,13,15
+"Kuwait","KW","KWT","414",2016,"Income and expenditure household survey, 2013",5.7,60,65,,,41,27,56,100,100,100
+"Kyrgyzstan","KG","KGZ","417",2016,"MICS, 2014",4.3,60,1164,,,1500,1400,1700,75,69,83
+"Lao People's Democratic Republic","LA","LAO","418",2016,"Census, 2015",5.3,60,606,,,2000,1800,2100,31,28,34
+"Latvia","LV","LVA","428",2016,"Central Statistical Bureau of Latvia, 2015",2.44,60,8,,,15,9.8,21,53,39,82
+"Lebanon","LB","LBN","422",2016,"Central administration of statistics, 2007",4.23,60,19,,,25,16,34,76,56,100
+"Lesotho","LS","LSO","426",2016,"Demographic survey, 2011",4.2,0,,,,1700,1600,1900,,,
+"Liberia","LR","LBR","430",2016,"DHS, 2013",5,60,92,,,2100,1900,2300,4.4,4,4.8
+"Libya","LY","LBY","434",2016,"National Survey of the population, 2012",5.35,,,,,66,43,89,,,
+"Lithuania","LT","LTU","440",2016,"Census, 2011",2.38,0,,,,33,21,44,,,
+"Luxembourg","LU","LUX","442",2016,"Census, 2011",2.41,60,,,,0.73,0.47,0.99,100,100,100
+"Madagascar","MG","MDG","450",2016,"DHS, 2013-2014",4.6,60,3630,,,12000,11000,14000,29,27,32
+"Malawi","MW","MWI","454",2016,"DHS, 2010",4.6,60,2351,,,4700,4200,5100,50,46,55
+"Malaysia","MY","MYS","458",2016,"Census, 2010",4.2,60,290,,,1400,910,1900,21,15,32
+"Maldives","MV","MDV","462",2016,"DHS, 2009",6.4,60,14,,,11,7.2,15,100,93,100
+"Mali","ML","MLI","466",2016,"MICS, 2015",8.4,60,390,,,6500,5900,7000,6,5.5,6.6
+"Malta","MT","MLT","470",2016,"Census,2011",2.7,0,,,,1.1,0.71,1.5,,,
+"Mauritania","MR","MRT","478",2016,"Recensement Général de la Population, 2013",6.1,0,,,,1100,980,1200,,,
+"Mauritius","MU","MUS","480",2016,"Census,2011",3.5,60,16,,,5.2,3.4,7.1,100,100,100
+"Mexico","MX","MEX","484",2016,"Census, 2010",3.9,60,2913,,,1300,840,1700,100,100,100
+"Mongolia","MN","MNG","496",2016,"Social Indicator Sample Survey (SISS), 2013",3.5,60,105,,,700,640,760,15,14,16
+"Montenegro","ME","MNE","499",2016,"Census, 2011",3.2,0,,,,2.6,1.7,3.5,,,
+"Morocco","MA","MAR","504",2016,"Census, 2014",4.6,60,67,,,5900,5400,6400,1.1,1,1.2
+"Mozambique","MZ","MOZ","508",2016,"DHS, 2011",4.4,60,19634,,,20000,18000,21000,100,91,100
+"Myanmar","MM","MMR","104",2016,"Census, 2014",4.4,60,317,,,17000,15000,18000,1.9,1.8,2.1
+"Namibia","NA","NAM","516",2016,"Census, 2011",4.4,60,810,,,3100,2900,3400,26,24,28
+"Nepal","NP","NPL","524",2016,"Census, 2011",4.88,0,,,,7000,6400,7600,,,
+"Netherlands","NL","NLD","528",2016,"Statistics Netherland, 2015",2.18,60,18,,,10,6.5,14,100,100,100
+"New Zealand","NZ","NZL","554",2016,"Census, 2013",2.7,60,29,,,6.1,4,8.3,100,100,100
+"Nicaragua","NI","NIC","558",2016,"Census, 2005",4.6,60,203,,,630,570,690,32,30,35
+"Niger","NE","NER","562",2016,"Enquête demographique, 2012",5.9,60,1640,,,8100,7400,8900,20,19,22
+"Nigeria","NG","NGA","566",2016,"DHS, 2013",4.6,60,8562,,,47000,43000,51000,18,17,20
+"Norway","NO","NOR","578",2016,"Census, 2011",2.2,60,34,,,4.7,3.1,6.4,100,100,100
+"Oman","OM","OMN","512",2016,"Census, 2010",7.5,60,112,,,36,23,49,100,100,100
+"Pakistan","PK","PAK","586",2016,"DHS, 2012",6.8,0,,,,110000,98000,120000,,,
+"Panama","PA","PAN","591",2016,"Census, 2010",3.9,60,195,,,79,51,110,100,100,100
+"Papua New Guinea","PG","PNG","598",2016,"Census, 2011",5.5,0,,,,3000,2700,3200,,,
+"Paraguay","PY","PRY","600",2016,"Census, 2002",4.6,60,203,,,690,630,750,30,27,32
+"Peru","PE","PER","604",2016,"Encuesta Demográfica y de Salud Familiar, 2012",3.7,60,4064,,,6100,5600,6700,66,61,73
+"Philippines","PH","PHL","608",2016,"DHS, 2013",4.7,60,2777,,,55000,51000,60000,5,4.6,5.5
+"Poland","PL","POL","616",2016,"Central Statistical office of Poland, 2014",2.73,0,,,,140,90,190,,,
+"Portugal","PT","PRT","620",2016,"Census, 2011",2.58,60,98,,,29,19,40,100,100,100
+"Puerto Rico","PR","PRI","630",2016,"Census, 2010",2.68,60,3,,,1.6,1,2.2,100,100,100
+"Qatar","QA","QAT","634",2016,"Census, 2010",5.3,60,5,,,17,11,23,29,21,45
+"Republic of Korea","KR","KOR","410",2016,"Census, 2010",2.69,60,419,,,580,370,780,72,53,100
+"Republic of Moldova","MD","MDA","498",2016,"MICS, 2012",2.5,0,,,,240,220,260,,,
+"Romania","RO","ROU","642",2016,"Census, 2011",2.66,0,,,,270,180,370,,,
+"Russian Federation","RU","RUS","643",2016,"Census, 2010",2.6,61,,39628,9850,1700,1100,2300,100,100,100
+"Rwanda","RW","RWA","646",2016,"Census, 2012",4.3,60,1693,,,2400,2200,2600,70,64,76
+"Saudi Arabia","SA","SAU","682",2016,"Census, 2010",5.6,0,,,,230,150,310,,,
+"Senegal","SN","SEN","686",2016,"DHS, 2014",8.6,60,5196,,,12000,11000,13000,42,39,46
+"Serbia","RS","SRB","688",2016,"Census, 2011",2.88,0,,,,31,20,41,,,
+"Sierra Leone","SL","SLE","694",2016,"DHS, 2013",5.9,0,,,,9100,8300,9900,,,
+"Singapore","SG","SGP","702",2016,"Department of Statistics Singapore, 2014",3.43,60,108,,,52,34,70,100,100,100
+"Slovakia","SK","SVK","703",2016,"Census, 2011",2.6,60,36,,,4.7,3,6.4,100,100,100
+"Slovenia","SI","SVN","705",2016,"Republic of Slovenia Statistical Office, 2015",2.47,60,15,,,3,1.9,4.1,100,100,100
+"Solomon Islands","SB","SLB","090",2016,"Census, 2009",5.5,60,2,,,87,79,95,2.3,2.1,2.5
+"Somalia","SO","SOM","706",2016,"Population estimation survey, 2014",5.9,0,,,,6200,5700,6800,,,
+"South Africa","ZA","ZAF","710",2016,"Census, 2011",3.6,0,,,,46000,42000,50000,,,
+"South Sudan","SS","SSD","728",2016,"Household Survey, 2010",6,0,,,,4600,4200,5000,,,
+"Spain","ES","ESP","724",2016,"The Continuous Household Survey, 2014",2.51,,,,,80,52,110,,,
+"Sri Lanka","LK","LKA","144",2016,"Census, 2012",3.9,60,315,,,1200,1100,1300,27,25,30
+"Sudan","SD","SDN","729",2016,"National Baseline Household Survey, 2009",6.1,0,,,,5800,5300,6400,,,
+"Suriname","SR","SUR","740",2016,"Census, 2012",3.83,0,,,,6.8,4.4,9.1,,,
+"Swaziland","SZ","SWZ","748",2016,"Census, 2007",4.7,0,,,,1300,1200,1400,,,
+"Sweden","SE","SWE","752",2016,"Statistics Sweden, 2014",2.22,0,,,,13,8.6,18,,,
+"Switzerland","CH","CHE","756",2016,"Swiss Federal Statistical Office, 2014",2.25,0,,,,10,6.7,14,,,
+"Syrian Arab Republic","SY","SYR","760",2016,"MICS, 2006",5.4,60,102,,,670,610,730,15,14,17
+"Tajikistan","TJ","TJK","762",2016,"DHS, 2012",6.3,60,2341,,,2300,2100,2500,100,94,100
+"Thailand","TH","THA","764",2016,"Census, 2012",3.2,0,,,,5500,5000,6000,,,
+"The Former Yugoslav Republic of Macedonia","MK","MKD","807",2016,"Household Consumption in The Republic of Macedonia, 2014",3.69,60,23,,,9.1,5.9,12,100,100,100
+"Timor-Leste","TL","TLS","626",2016,"Census, 2010",5.8,60,1586,,,1600,1400,1700,100,93,100
+"Togo","TG","TGO","768",2016,"DHS, 2013-2014",4.5,60,425,,,1300,1200,1500,32,29,35
+"Trinidad and Tobago","TT","TTO","780",2016,"Census, 2011",3.3,60,3,,,7,4.6,9.5,43,31,66
+"Tunisia","TN","TUN","788",2016,"Census, 2014",4.05,60,211,,,100,65,140,100,100,100
+"Turkey","TR","TUR","792",2016,"Statistical year book, 2014",3.6,60,1176,,,480,310,640,100,100,100
+"Turkmenistan","TM","TKM","795",2016,"DHS, 2000",5.1,0,,,,250,160,340,,,
+"Uganda","UG","UGA","800",2016,"Census, 2014",4.7,60,1094,,,21000,19000,23000,5.2,4.8,5.7
+"Ukraine","UA","UKR","804",2016,"DHS, 2007",2.5,60,260,,,2100,1900,2300,12,11,14
+"United Arab Emirates","AE","ARE","784",2016,"Census, 2005",4.8,60,10,,,2.4,1.5,3.2,100,100,100
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826",2016,"Office for national statistics, 2015",2.37,0,,,,88,57,120,,,
+"United Republic of Tanzania","TZ","TZA","834",2016,"Census, 2012",4.8,60,6309,,,20000,19000,22000,31,28,34
+"United States of America","US","USA","840",2016,"US Census bureau, 2015",2.54,0,,,,220,140,300,,,
+"Uruguay","UY","URY","858",2016,"Census, 2011",2.8,60,193,,,28,18,38,100,100,100
+"Uzbekistan","UZ","UZB","860",2016,"MICS, 2006",5.2,60,1938,,,2300,2100,2500,86,79,94
+"Venezuela (Bolivarian Republic of)","VE","VEN","862",2016,"Census, 2011",3.9,60,587,,,450,290,600,100,97,100
+"Viet Nam","VN","VNM","704",2016,"DHS, 2009",3.8,60,3038,,,16000,14000,17000,19,18,21
+"West Bank and Gaza Strip","PS","PSE","275",2016,"Palestinian Central Bureau of Statistics. Palestine in Figures, 2015",5.2,,,,,,,,,,
+"Yemen","YE","YEM","887",2016,"Demographic survey, 2013",6.7,0,,,,3000,2700,3300,,,
+"Zambia","ZM","ZMB","894",2016,"Census, 2010",4.4,0,,,,10000,9400,11000,,,
+"Zimbabwe","ZW","ZWE","716",2016,"Census, 2012",4.2,60,5177,,,8200,7500,8900,63,58,69

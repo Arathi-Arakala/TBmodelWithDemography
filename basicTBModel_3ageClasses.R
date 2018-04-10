@@ -27,7 +27,7 @@ parameters$delta<-0.59*73/(0.41*365*70*3) # 59% treatment
 time<-seq(from=1, to=365*100, by=1 )
 output<-as.data.frame(ode(nstart,time,TBmodel_3AgeClasses,parameters))
 
-#plot the run in output from each of the age classes
+#plot the output from each of the age classes
 plot_output_3ageClasses(output)
 
 #plot the total/aggregate output from all compartments

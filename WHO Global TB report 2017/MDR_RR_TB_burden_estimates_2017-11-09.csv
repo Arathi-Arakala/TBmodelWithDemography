@@ -1,0 +1,218 @@
+"country","iso2","iso3","iso_numeric","year","source_rr_new","source_drs_coverage_new","source_drs_year_new","e_rr_pct_new","e_rr_pct_new_lo","e_rr_pct_new_hi","e_mdr_pct_rr_new","source_rr_ret","source_drs_coverage_ret","source_drs_year_ret","e_rr_pct_ret","e_rr_pct_ret_lo","e_rr_pct_ret_hi","e_mdr_pct_rr_ret","e_inc_rr_num","e_inc_rr_num_lo","e_inc_rr_num_hi","e_rr_in_notified_pulm","e_rr_in_notified_pulm_lo","e_rr_in_notified_pulm_hi"
+"Afghanistan","AF","AFG","004",2016,"Model",,"2016",4.1,1.4,6.9,85,"Model",,"2016",16,13,18,95,3300,1200,5400,1600,790,2400
+"Albania","AL","ALB","008",2016,"Surveillance","National","2012",2.3,0.64,5.8,25,"Surveillance","National","2012",6.7,0.17,32,0,12,2,23,7,1,14
+"Algeria","DZ","DZA","012",2016,"Survey","National","2002",1.4,0.33,2.5,100,"Survey","National","2002",9.1,0,29,100,460,140,780,160,24,300
+"American Samoa","AS","ASM","016",2016,"Model",,"2016",5.5,3,8,76,"Model",,"2016",26,23,30,75,0,0,0,,,
+"Andorra","AD","AND","020",2016,"Surveillance","National","2016",0,0,84,,"Surveillance","National","2016",0,0,0,,0,0,0,0,0,3
+"Angola","AO","AGO","024",2016,"Model",,"2016",2.6,0.1,5.1,69,"Model",,"2016",18,0.1,36,66,4300,1400,7300,2600,790,4400
+"Anguilla","AI","AIA","660",2016,"Model",,"2016",2.9,1.4,4.5,90,"Model",,"2016",13,6.7,20,90,0,0,0,0,0,0
+"Antigua and Barbuda","AG","ATG","028",2016,"Model",,"2016",2.4,1.6,3.2,82,"Model",,"2016",11,9.1,14,95,0,0,0,0,0,0
+"Argentina","AR","ARG","032",2016,"Survey","National","2005",2.3,1.1,3.6,94,"Survey","National","2005",18,9.5,27,84,440,290,580,370,240,500
+"Armenia","AM","ARM","051",2016,"Survey","National","2007",11,8,14,87,"Survey","National","2007",47,40,55,92,280,210,350,180,160,210
+"Aruba","AW","ABW","533",2016,"Model",,"2016",2.4,1.6,3.2,82,"Model",,"2016",11,9.1,14,95,0,0,1,0,0,0
+"Australia","AU","AUS","036",2016,"Surveillance","National","2015",3.6,2.2,5.4,71,"Surveillance","National","2015",24,9.4,45,100,63,40,86,40,26,55
+"Austria","AT","AUT","040",2016,"Surveillance","National","2015",2.3,0.84,4.9,83,"Surveillance","National","2016",18,3.8,43,100,22,9,36,16,6,26
+"Azerbaijan","AZ","AZE","031",2016,"Survey","National","2013",13,10,16,98,"Surveillance","National","2016",39,37,42,70,2400,2000,2900,1500,1400,1600
+"Bahamas","BS","BHS","044",2016,"Surveillance","National","2012",11,2.4,29,33,"Surveillance","National","2015",50,1.3,99,100,13,1,25,11,1,21
+"Bahrain","BH","BHR","048",2016,"Surveillance","National","2016",2.3,0.28,8.1,100,"Surveillance","National","2016",50,1.3,99,100,4,0,10,3,0,6
+"Bangladesh","BD","BGD","050",2016,"Survey","National","2011",1.6,0.59,2.6,88,"Survey","National","2011",29,22,36,99,8800,4800,13000,5300,3500,7200
+"Barbados","BB","BRB","052",2016,"Surveillance","National","2014",0,0,71,,"Surveillance","National","2014",0,0,0,,0,0,0,0,0,2
+"Belarus","BY","BLR","112",2016,"Surveillance","National","2016",38,36,40,98,"Surveillance","National","2016",72,68,75,100,3400,2600,4100,1600,1500,1600
+"Belgium","BE","BEL","056",2016,"Surveillance","National","2015",1.6,0.66,3.3,86,"Surveillance","National","2015",8.8,1.9,24,67,24,9,40,16,6,26
+"Belize","BZ","BLZ","084",2016,"Model",,"2016",2.9,1.4,4.5,90,"Surveillance","National","2013",100,29,100,100,11,8,13,11,9,13
+"Benin","BJ","BEN","204",2016,"Survey","National","2010",1.2,0,2.6,42,"Surveillance","National","2016",6.6,3.8,11,100,97,2,190,55,7,100
+"Bermuda","BM","BMU","060",2016,"Surveillance","National","2016",0,0,84,,"Surveillance","National","2016",0,0,0,,0,0,0,0,0,2
+"Bhutan","BT","BTN","064",2016,"Surveillance","National","2016",11,8.5,15,100,"Surveillance","National","2016",18,7.7,34,66,190,130,240,70,52,87
+"Bolivia (Plurinational State of)","BO","BOL","068",2016,"Model",,"2016",2.9,1.4,4.5,90,"Surveillance","National","2016",9.6,7.2,12,84,470,230,700,220,130,310
+"Bonaire, Saint Eustatius and Saba","BQ","BES","535",2016,"Surveillance","National","2016",0,0,98,,"Surveillance","National","2016",0,0,0,,0,0,0,0,0,1
+"Bosnia and Herzegovina","BA","BIH","070",2016,"Surveillance","National","2016",0,0,0.67,,"Surveillance","National","2016",0,0,6.8,,0,0,0,0,0,0
+"Botswana","BW","BWA","072",2016,"Survey","National","2008",3.6,2.4,4.8,69,"Survey","National","2008",13,7.4,19,50,410,290,540,210,150,260
+"Brazil","BR","BRA","076",2016,"Survey","Sub-national","2008",1.5,1.1,1.9,93,"Survey","Sub-national","2008",8,5.1,11,94,2400,1900,2800,1900,1500,2400
+"British Virgin Islands","VG","VGB","092",2016,"Model",,"2016",2.4,1.6,3.2,82,"Model",,"2016",11,9.1,14,95,0,0,0,0,0,0
+"Brunei Darussalam","BN","BRN","096",2016,"Surveillance","National","2016",0,0,2.3,,"Surveillance","National","2016",0,0,52,,0,0,0,0,0,0
+"Bulgaria","BG","BGR","100",2016,"Surveillance","National","2016",1.2,0.49,2.5,71,"Surveillance","National","2016",19,11,29,93,61,41,81,44,27,61
+"Burkina Faso","BF","BFA","854",2016,"Survey","National","2017",2.1,1.2,3,69,"Survey","National","2017",14,8.5,20,66,300,180,410,170,120,220
+"Burundi","BI","BDI","108",2016,"Model",,"2016",2.8,2.1,3.4,69,"Model",,"2016",13,8.9,17,66,420,270,580,200,160,230
+"Cabo Verde","CV","CPV","132",2016,"Model",,"2016",2.6,0.1,5.1,69,"Model",,"2016",18,0.1,36,66,29,9,48,12,4,20
+"Cambodia","KH","KHM","116",2016,"Survey","National","2007",1.8,0.77,2.8,78,"Survey","National","2007",11,0,23,100,1200,530,1900,550,260,840
+"Cameroon","CM","CMR","120",2016,"Model",,"2016",2.8,2.1,3.4,69,"Model",,"2016",13,8.9,17,66,1600,1000,2200,760,620,890
+"Canada","CA","CAN","124",2016,"Surveillance","National","2015",0.82,0.33,1.7,100,"Surveillance","National","2015",6.3,1.7,15,100,19,8,31,15,6,23
+"Cayman Islands","KY","CYM","136",2016,"Surveillance","National","2016",0,0,71,,"Surveillance","National","2016",0,0,0,,0,0,0,0,0,2
+"Central African Republic","CF","CAF","140",2016,"Survey","Sub-national","2009",0.4,0,1.6,100,"Model",,"2016",13,8.9,17,66,180,0,410,110,12,210
+"Chad","TD","TCD","148",2016,"Model",,"2016",2.6,0.1,5.1,69,"Model",,"2016",18,0.1,36,66,760,160,1400,360,100,620
+"Chile","CL","CHL","152",2016,"Surveillance","National","2015",1.5,0.88,2.3,48,"Surveillance","National","2015",5.6,2.6,10,56,58,37,78,39,25,54
+"China","CN","CHN","156",2016,"Survey","National","2013",7.1,5.6,8.7,75,"Survey","National","2013",24,20,28,73,73000,56000,89000,58000,47000,69000
+"China, Hong Kong SAR","HK","HKG","344",2016,"Surveillance","National","2011",1.2,0.73,1.7,74,"Surveillance","National","2011",3.4,1.4,6.8,86,79,53,110,46,30,62
+"China, Macao SAR","MO","MAC","446",2016,"Surveillance","National","2015",2.5,0.91,5.3,50,"Surveillance","National","2015",16,4.5,36,75,13,5,21,10,4,16
+"Colombia","CO","COL","170",2016,"Survey","National","2005",2.4,1.4,3.4,100,"Surveillance","National","2012",14,11,18,91,580,400,770,430,320,540
+"Comoros","KM","COM","174",2016,"Model",,"2016",2.6,0.1,5.1,69,"Model",,"2016",18,0.1,36,66,45,9,81,32,3,62
+"Congo","CG","COG","178",2016,"Model",,"2016",2.8,2.1,3.4,69,"Model",,"2016",13,8.9,17,66,640,390,900,270,220,310
+"Cook Islands","CK","COK","184",2016,"Surveillance","National","2016",0,0,84,,"Surveillance","National","2016",0,0,0,,0,0,0,0,0,2
+"Costa Rica","CR","CRI","188",2016,"Survey","National","2006",1.9,0,3.9,80,"Surveillance","National","2012",9.1,1.1,29,50,10,1,19,7,1,13
+"Côte d'Ivoire","CI","CIV","384",2016,"Survey","National","2017",4.6,2.4,6.8,54,"Survey","National","2017",22,14,30,66,2100,1100,3100,1000,660,1400
+"Croatia","HR","HRV","191",2016,"Surveillance","National","2015",0,0,1.4,,"Surveillance","National","2016",0,0,37,,0,0,0,0,0,0
+"Cuba","CU","CUB","192",2016,"Surveillance","National","2012",2.2,0.82,4.8,33,"Surveillance","National","2014",4.2,0.51,14,100,25,10,39,16,5,27
+"Curaçao","CW","CUW","531",2016,"Surveillance","National","2016",0,0,60,,"Surveillance","National","2016",0,0,0,,0,0,0,0,0,2
+"Cyprus","CY","CYP","196",2016,"Surveillance","National","2015",0,0,10,,"Surveillance","National","2015",0,0,0,,0,0,0,0,0,0
+"Czechia","CZ","CZE","203",2016,"Surveillance","National","2015",2.2,0.9,4.6,100,"Surveillance","National","2015",12,2.4,30,100,17,8,26,12,5,19
+"Democratic People's Republic of Korea","KP","PRK","408",2016,"Survey","Sub-national","2014",2.2,0.51,3.9,86,"Survey","Sub-national","2014",16,5.8,27,94,5700,3200,8100,4600,2300,6900
+"Democratic Republic of the Congo","CD","COD","180",2016,"Survey","National","2017",2.2,1,3.5,69,"Survey","National","2017",17,9.6,24,66,7600,3900,11000,3600,2300,5000
+"Denmark","DK","DNK","208",2016,"Surveillance","National","2015",1.9,0.53,4.9,100,"Surveillance","National","2015",4.5,0.12,23,100,9,1,16,6,1,12
+"Djibouti","DJ","DJI","262",2016,"Survey","National","2015",4.3,2.5,7.3,100,"Survey","National","2015",35,25,47,88,170,93,250,110,76,150
+"Dominica","DM","DMA","212",2016,"Surveillance","National","2013",0,0,98,,"Surveillance","National","2013",0,0,0,,0,0,0,0,0,0
+"Dominican Republic","DO","DOM","214",2016,"Model",,"2016",2.9,1.4,4.5,90,"Surveillance","National","2016",34,28,41,91,420,300,550,290,230,360
+"Ecuador","EC","ECU","218",2016,"Survey","National","2002",7.3,5.4,9.2,68,"Surveillance","National","2012",28,25,31,93,710,430,1000,370,290,450
+"Egypt","EG","EGY","818",2016,"Survey","National","2011",14,12,16,24,"Surveillance","National","2016",20,17,24,38,2100,1800,2500,720,620,830
+"El Salvador","SV","SLV","222",2016,"Model",,"2016",2.9,1.4,4.5,90,"Surveillance","National","2014",4.1,1.3,9.2,100,140,76,210,79,40,120
+"Equatorial Guinea","GQ","GNQ","226",2016,"Model",,"2016",2.6,0.1,5.1,69,"Surveillance","National","2016",29,21,39,66,110,55,170,78,45,110
+"Eritrea","ER","ERI","232",2016,"Model",,"2016",2.6,0.1,5.1,69,"Model",,"2016",18,0.1,36,66,140,28,260,63,19,110
+"Estonia","EE","EST","233",2016,"Surveillance","National","2016",14,8.3,21,94,"Surveillance","National","2016",54,25,81,86,46,31,60,34,23,45
+"Ethiopia","ET","ETH","231",2016,"Survey","National","2005",2.7,1.5,4,59,"Survey","National","2005",14,3.6,25,82,5800,3100,8500,2900,1800,4000
+"Fiji","FJ","FJI","242",2016,"Surveillance","National","2006",0,0,8.2,,"Surveillance","National","2006",0,0,98,,0,0,0,0,0,0
+"Finland","FI","FIN","246",2016,"Surveillance","National","2016",1.6,0.19,5.7,100,"Surveillance","National","2016",0,0,46,,4,0,10,3,0,6
+"France","FR","FRA","250",2016,"Surveillance","National","2014",1,0.65,1.5,100,"Surveillance","National","2014",10,7.1,15,100,82,59,100,63,46,79
+"French Polynesia","PF","PYF","258",2016,"Surveillance","National","2015",0,0,11,,"Surveillance","National","2015",50,1.3,99,100,5,1,9,,,
+"Gabon","GA","GAB","266",2016,"Model",,"2016",2.8,2.1,3.4,69,"Model",,"2016",13,8.9,17,66,400,290,500,230,190,270
+"Gambia","GM","GMB","270",2016,"Model",,"2016",2.6,0.1,5.1,69,"Model",,"2016",18,0.1,36,66,110,18,200,78,19,140
+"Georgia","GE","GEO","268",2016,"Surveillance","National","2016",11,9.3,12,95,"Surveillance","National","2016",31,27,35,100,780,650,920,460,420,500
+"Germany","DE","DEU","276",2016,"Surveillance","National","2015",2.2,0.82,4.8,100,"Surveillance","National","2015",23,16,30,91,220,110,340,160,85,240
+"Ghana","GH","GHA","288",2016,"Survey","National","2017",1.5,0.7,2.3,69,"Survey","National","2017",7,0.6,13,66,840,270,1400,250,140,370
+"Greece","GR","GRC","300",2016,"Surveillance","National","2010",1.5,0.04,8,100,"Surveillance","National","2010",9.1,0.23,41,100,12,0,28,9,0,21
+"Greenland","GL","GRL","304",2016,"Model",,"2016",2.4,1.6,3.2,82,"Model",,"2016",11,9.1,14,95,3,2,3,2,2,3
+"Grenada","GD","GRD","308",2016,"Model",,"2016",2.9,1.4,4.5,90,"Model",,"2016",13,6.7,20,90,0,0,1,0,0,1
+"Guam","GU","GUM","316",2016,"Surveillance","National","2016",4.9,0.6,17,100,"Surveillance","National","2016",0,0,0,,4,0,10,4,0,12
+"Guatemala","GT","GTM","320",2016,"Survey","National","2002",4.2,2.6,5.8,71,"Survey","National","2002",29,19,39,91,230,150,310,170,120,220
+"Guinea","GN","GIN","324",2016,"Model",,"2016",2.6,0.1,5.1,69,"Model",,"2016",18,0.1,36,66,730,140,1300,360,96,630
+"Guinea-Bissau","GW","GNB","624",2016,"Model",,"2016",2.6,0.1,5.1,69,"Model",,"2016",18,0.1,36,66,200,17,390,67,12,120
+"Guyana","GY","GUY","328",2016,"Model",,"2016",2.9,1.4,4.5,90,"Surveillance","National","2016",17,8.2,30,90,46,30,62,38,22,54
+"Haiti","HT","HTI","332",2016,"Model",,"2016",2.9,1.4,4.5,90,"Model",,"2016",13,6.7,20,90,770,440,1100,530,310,740
+"Honduras","HN","HND","340",2016,"Survey","National","2004",2.2,0.69,3.7,80,"Survey","National","2004",21,9.2,32,60,120,59,170,93,51,140
+"Hungary","HU","HUN","348",2016,"Surveillance","National","2010",2.9,1.6,4.8,86,"Surveillance","National","2010",8.1,3.3,16,100,35,21,48,27,16,39
+"Iceland","IS","ISL","352",2016,"Surveillance","National","2016",0,0,60,,"Surveillance","National","2016",0,0,0,,0,0,0,0,0,4
+"India","IN","IND","356",2016,"Survey","National","2016",2.8,2,3.5,81,"Survey","National","2016",12,10,13,90,147000,95000,199000,84000,72000,95000
+"Indonesia","ID","IDN","360",2016,"Multiple surveys",,"2004, 2006, 2010",2.8,2.2,3.5,68,"Multiple surveys",,"2006, 2010",16,10,20,75,32000,19000,45000,11000,8800,13000
+"Iran (Islamic Republic of)","IR","IRN","364",2016,"Survey","National","2014",1.3,0.6,2,62,"Surveillance","National","2016",8.3,5.9,11,61,200,120,290,130,82,170
+"Iraq","IQ","IRQ","368",2016,"Survey","National","2013",6.1,4.4,7.8,18,"Survey","National","2013",24,14,34,82,1200,880,1500,360,270,440
+"Ireland","IE","IRL","372",2016,"Surveillance","National","2015",1.1,0.03,5.8,100,"Surveillance","National","2015",0,0,31,,4,0,11,2,0,6
+"Israel","IL","ISR","376",2016,"Surveillance","National","2016",7.4,3.5,14,100,"Surveillance","National","2016",0,0,84,,24,11,38,13,5,22
+"Italy","IT","ITA","380",2016,"Surveillance","National","2015",2.8,1.8,4.3,82,"Surveillance","National","2015",13,7.7,21,93,140,95,190,110,73,140
+"Jamaica","JM","JAM","388",2016,"Surveillance","National","2013",1.7,0.04,9.1,100,"Surveillance","National","2013",0,0,0,,2,0,7,2,0,5
+"Japan","JP","JPN","392",2016,"Surveillance","National","2002",1,0.69,1.5,68,"Surveillance","National","2002",11,8.2,14,89,260,170,340,210,160,270
+"Jordan","JO","JOR","400",2016,"Surveillance","National","2009",6.3,2.4,13,100,"Surveillance","National","2009",29,3.7,71,100,39,12,67,21,7,36
+"Kazakhstan","KZ","KAZ","398",2016,"Surveillance","National","2015",26,25,28,91,"Surveillance","National","2015",44,42,46,91,7000,5400,8600,3500,3400,3600
+"Kenya","KE","KEN","404",2016,"Survey","National","2014",1.3,0.68,1.9,54,"Surveillance","National","2014",9.4,8.7,10,71,3000,1600,4400,1300,910,1600
+"Kiribati","KI","KIR","296",2016,"Model",,"2016",5.5,3,8,76,"Model",,"2016",26,23,30,75,40,21,58,25,15,35
+"Kuwait","KW","KWT","414",2016,"Surveillance","National","2016",2.7,1.3,4.8,94,"Surveillance","National","2016",0,0,0,,26,10,42,17,7,28
+"Kyrgyzstan","KG","KGZ","417",2016,"Surveillance","National","2016",27,25,29,97,"Surveillance","National","2016",60,57,63,91,4800,4000,5500,2500,2400,2600
+"Lao People's Democratic Republic","LA","LAO","418",2016,"Model",,"2016",5.5,3,8,76,"Surveillance","National","2016",12,7.2,19,75,720,330,1100,260,150,380
+"Latvia","LV","LVA","428",2016,"Surveillance","National","2016",7.6,5.2,11,100,"Surveillance","National","2016",23,15,33,100,90,66,110,62,47,78
+"Lebanon","LB","LBN","422",2016,"Survey","National","2003",2.6,0,5.4,40,"Surveillance","National","2013",43,9.9,82,67,29,8,50,18,5,30
+"Lesotho","LS","LSO","426",2016,"Survey","National","2014",4.8,3.7,5.9,67,"Survey","National","2014",14,9.2,18,54,1100,710,1400,410,330,490
+"Liberia","LR","LBR","430",2016,"Model",,"2016",2.6,0.1,5.1,69,"Model",,"2016",18,0.1,36,66,430,46,820,160,36,290
+"Libya","LY","LBY","434",2016,"Model",,"2016",4.1,1.4,6.9,85,"Model",,"2016",16,13,18,95,120,40,200,38,19,57
+"Lithuania","LT","LTU","440",2016,"Surveillance","National","2015",12,10,15,100,"Surveillance","National","2015",47,41,53,91,350,290,410,260,240,290
+"Luxembourg","LU","LUX","442",2016,"Surveillance","National","2014",0,0,0,,"Surveillance","National","2014",0,0,0,,0,0,0,0,0,0
+"Madagascar","MG","MDG","450",2016,"Survey","National","2007",0.49,0,1.1,100,"Survey","National","2007",5.9,0,15,67,440,81,790,210,6,420
+"Malawi","MW","MWI","454",2016,"Survey","National","2011",0.75,0,1.6,56,"Survey","National","2011",6.4,3.8,8.9,76,400,130,670,210,110,310
+"Malaysia","MY","MYS","458",2016,"Surveillance","National","2014",1.5,1.2,1.9,26,"Surveillance","National","2014",3.1,1.3,5.9,38,570,450,700,370,290,460
+"Maldives","MV","MDV","462",2016,"Surveillance","National","2016",1.7,0.04,9.1,81,"Surveillance","National","2016",0,0,0,,4,0,11,1,0,4
+"Mali","ML","MLI","466",2016,"Model",,"2016",2.6,0.1,5.1,69,"Model",,"2016",18,0.1,36,66,380,100,660,230,70,400
+"Malta","MT","MLT","470",2016,"Surveillance","National","2016",0,0,11,,"Surveillance","National","2016",0,0,0,,0,0,0,0,0,4
+"Marshall Islands","MH","MHL","584",2016,"Surveillance","National","2014",0,0,4.4,,"Surveillance","National","2015",0,0,41,,0,0,0,0,0,0
+"Mauritania","MR","MRT","478",2016,"Model",,"2016",2.6,0.1,5.1,69,"Model",,"2016",18,0.1,36,66,140,23,260,60,15,100
+"Mauritius","MU","MUS","480",2016,"Surveillance","National","2016",2.7,0.56,7.7,67,"Surveillance","National","2016",0,0,71,,8,0,17,3,0,6
+"Mexico","MX","MEX","484",2016,"Survey","National","2009",2.6,2.3,2.9,92,"Survey","National","2009",11,9,13,60,940,740,1100,610,550,680
+"Micronesia (Federated States of)","FM","FSM","583",2016,"Model",,"2016",5.5,3,8,76,"Model",,"2016",26,23,30,75,11,5,16,7,4,11
+"Monaco","MC","MCO","492",2016,"Model",,"2016",2.4,1.6,3.2,82,"Model",,"2016",11,9.1,14,95,0,0,0,,,
+"Mongolia","MN","MNG","496",2016,"Survey","National","2016",5.6,4.2,6.9,25,"Survey","National","2016",18,14,22,100,470,360,580,220,180,250
+"Montenegro","ME","MNE","499",2016,"Surveillance","National","2016",0,0,7.1,,"Surveillance","National","2016",0,0,41,,0,0,0,0,0,0
+"Montserrat","MS","MSR","500",2016,"Model",,"2016",2.9,1.4,4.5,90,"Model",,"2016",13,6.7,20,90,0,0,0,0,0,0
+"Morocco","MA","MAR","504",2016,"Survey","National","2014",1,0.3,1.7,100,"Surveillance","National","2016",11,9.5,12,79,640,380,900,380,270,500
+"Mozambique","MZ","MOZ","508",2016,"Survey","National","2007",3.7,2.4,5,95,"Survey","National","2007",20,2.1,37,57,7600,4500,11000,3400,2100,4800
+"Myanmar","MM","MMR","104",2016,"Survey","National","2013",5.1,3.2,7,98,"Survey","National","2013",27,10,44,100,13000,8800,18000,9000,6100,12000
+"Namibia","NA","NAM","516",2016,"Survey","National","2015",5,4.1,5.9,86,"Survey","National","2015",12,8.7,15,79,960,740,1200,480,410,560
+"Nauru","NR","NRU","520",2016,"Model",,"2016",5.5,3,8,76,"Model",,"2016",26,23,30,75,2,1,2,1,1,1
+"Nepal","NP","NPL","524",2016,"Survey","National","2011",2.2,0.98,3.4,100,"Survey","National","2011",15,6.7,24,100,1500,910,2100,900,540,1300
+"Netherlands","NL","NLD","528",2016,"Surveillance","National","2016",2,0.82,4.2,86,"Surveillance","National","2016",30,6.7,65,67,29,13,45,15,6,24
+"New Caledonia","NC","NCL","540",2016,"Surveillance","National","2016",0,0,14,,"Surveillance","National","2016",0,0,98,,0,0,0,0,0,0
+"New Zealand","NZ","NZL","554",2016,"Surveillance","National","2014",2.6,0.7,6.4,50,"Surveillance","National","2014",20,0.51,72,100,10,1,18,5,1,9
+"Nicaragua","NI","NIC","558",2016,"Survey","National","2006",0.94,0,2.3,67,"Surveillance","National","2010",12,7.3,18,89,53,13,93,42,14,70
+"Niger","NE","NER","562",2016,"Model",,"2016",2.6,0.1,5.1,69,"Model",,"2016",18,0.1,36,66,660,140,1200,330,92,570
+"Nigeria","NG","NGA","566",2016,"Survey","National","2010",4.3,3.2,5.4,67,"Survey","National","2010",25,19,31,57,20000,12000,29000,5200,4100,6200
+"Niue","NU","NIU","570",2016,"Model",,"2016",5.5,3,8,76,"Model",,"2016",26,23,30,75,0,0,0,,,
+"Northern Mariana Islands","MP","MNP","580",2016,"Surveillance","National","2016",0,0,21,,"Surveillance","National","2016",0,0,0,,0,0,0,0,0,6
+"Norway","NO","NOR","578",2016,"Surveillance","National","2015",2.6,0.7,6.4,100,"Surveillance","National","2015",5.9,0.15,29,0,10,1,18,6,1,11
+"Oman","OM","OMN","512",2016,"Surveillance","National","2016",1.9,0.51,4.7,100,"Surveillance","National","2016",0,0,0,,8,1,15,4,0,8
+"Pakistan","PK","PAK","586",2016,"Survey","National","2013",4.2,3.2,5.3,88,"Surveillance","National","2015",16,15,17,100,27000,17000,37000,15000,12000,18000
+"Palau","PW","PLW","585",2016,"Surveillance","National","2016",0,0,20,,"Surveillance","National","2016",0,0,0,,0,0,0,0,0,4
+"Panama","PA","PAN","591",2016,"Model",,"2016",2.9,1.4,4.5,90,"Surveillance","National","2016",17,8.9,29,90,96,57,140,68,41,94
+"Papua New Guinea","PG","PNG","598",2016,"Survey","Sub-national","2014",3.4,1.7,5,79,"Survey","Sub-national","2014",26,15,36,75,1900,1200,2600,1200,790,1500
+"Paraguay","PY","PRY","600",2016,"Survey","National","2008",0.9,0,2.2,33,"Survey","National","2008",15,0,30,100,84,36,130,73,10,140
+"Peru","PE","PER","604",2016,"Surveillance","National","2016",6.3,5.9,6.7,87,"Surveillance","National","2016",24,23,26,93,3500,2900,4200,2300,2200,2400
+"Philippines","PH","PHL","608",2016,"Survey","National","2012",2.6,1.8,3.3,77,"Survey","National","2012",29,20,38,73,30000,21000,40000,20000,15000,24000
+"Poland","PL","POL","616",2016,"Surveillance","National","2016",0.83,0.56,1.2,90,"Surveillance","National","2016",4.4,2.7,6.8,90,90,66,110,77,56,98
+"Portugal","PT","PRT","620",2016,"Surveillance","National","2012",0.98,0.51,1.7,100,"Surveillance","National","2012",6.9,2.8,14,71,28,17,40,19,10,27
+"Puerto Rico","PR","PRI","630",2016,"Surveillance","National","2016",0,0,9,,"Surveillance","National","2016",100,2.5,100,0,4,4,5,4,4,4
+"Qatar","QA","QAT","634",2016,"Surveillance","National","2014",1.3,0.16,4.7,100,"Model","National","2016",0,0,0,95,8,0,18,4,0,12
+"Republic of Korea","KR","KOR","410",2016,"Surveillance","National","2016",3.4,3.1,3.7,79,"Surveillance","National","2016",11,9.4,12,100,2400,2100,2700,1600,1500,1700
+"Republic of Moldova","MD","MDA","498",2016,"Surveillance","National","2016",26,24,28,92,"Surveillance","National","2016",56,51,60,100,2300,1900,2600,1400,1300,1400
+"Romania","RO","ROU","642",2016,"Surveillance","National","2016",2.8,2.4,3.3,73,"Surveillance","National","2016",17,16,19,92,890,750,1000,730,670,790
+"Russian Federation","RU","RUS","643",2016,"Surveillance","National","2016",27,27,28,100,"Surveillance","National","2016",65,65,66,100,63000,52000,74000,47000,46000,47000
+"Rwanda","RW","RWA","646",2016,"Survey","National","2015",1.5,0.77,2.2,93,"Surveillance","National","2016",5.1,3.4,7.4,100,140,89,190,110,70,140
+"Saint Kitts and Nevis","KN","KNA","659",2016,"Model",,"2016",2.4,1.6,3.2,82,"Model",,"2016",11,9.1,14,95,0,0,0,0,0,0
+"Saint Lucia","LC","LCA","662",2016,"Surveillance","National","2013",0,0,52,,"Surveillance","National","2013",0,0,0,,0,0,0,0,0,2
+"Saint Vincent and the Grenadines","VC","VCT","670",2016,"Surveillance","National","2013",50,1.3,99,0,"Surveillance","National","2014",0,0,98,,3,0,8,3,0,7
+"Samoa","WS","WSM","882",2016,"Surveillance","National","2016",13,0.32,53,0,"Surveillance","National","2016",0,0,0,,2,0,5,1,0,5
+"San Marino","SM","SMR","674",2016,"Model",,"2016",2.4,1.6,3.2,82,"Model",,"2016",11,9.1,14,95,0,0,0,0,0,0
+"Sao Tome and Principe","ST","STP","678",2016,"Model",,"2016",2.6,0.1,5.1,69,"Surveillance","National","2012",88,47,100,100,10,5,15,16,10,21
+"Saudi Arabia","SA","SAU","682",2016,"Survey","National","2010",2.6,2,3.2,69,"Survey","National","2010",20,14,26,78,130,110,160,94,76,110
+"Senegal","SN","SEN","686",2016,"Survey","National","2014",0.9,0.24,1.6,56,"Survey","National","2014",19,9.6,27,95,440,280,610,290,180,410
+"Serbia","RS","SRB","688",2016,"Surveillance","National","2013",1.1,0.49,2.2,75,"Surveillance","National","2013",4.7,1.3,11,100,27,13,41,19,8,29
+"Seychelles","SC","SYC","690",2016,"Surveillance","National","2016",0,0,52,,"Surveillance","National","2016",0,0,98,,0,0,0,0,0,0
+"Sierra Leone","SL","SLE","694",2016,"Model",,"2016",2.6,0.1,5.1,69,"Model",,"2016",18,0.1,36,66,720,120,1300,440,99,780
+"Singapore","SG","SGP","702",2016,"Surveillance","National","2016",1.4,0.83,2.3,84,"Surveillance","National","2016",2.3,0.28,8.1,100,51,31,71,31,17,44
+"Sint Maarten (Dutch part)","SX","SXM","534",2016,"Model",,"2016",2.4,1.6,3.2,82,"Model",,"2016",11,9.1,14,95,0,0,0,0,0,0
+"Slovakia","SK","SVK","703",2016,"Surveillance","National","2012",0,0,2.6,,"Surveillance","National","2012",3.7,0.09,19,100,2,0,3,1,0,4
+"Slovenia","SI","SVN","705",2016,"Surveillance","National","2016",0,0,3.9,,"Surveillance","National","2016",0,0,71,,0,0,0,0,0,0
+"Solomon Islands","SB","SLB","090",2016,"Model",,"2016",5.5,3,8,76,"Surveillance","National","2013",0,0,41,,29,15,44,14,7,20
+"Somalia","SO","SOM","706",2016,"Survey","National","2011",8.7,5.9,11,60,"Survey","National","2011",47,23,71,87,3900,2200,5600,1200,890,1600
+"South Africa","ZA","ZAF","710",2016,"Survey","National","2014",3.4,2.5,4.3,62,"Survey","National","2014",7.1,4.8,9.5,65,19000,12000,25000,8200,6400,10000
+"South Sudan","SS","SSD","728",2016,"Model",,"2016",2.8,2.1,3.4,69,"Model",,"2016",13,8.9,17,66,660,430,900,350,290,410
+"Spain","ES","ESP","724",2016,"Surveillance","National","2015",4.2,2.9,5.8,94,"Surveillance","National","2015",18,9.4,30,91,230,160,300,170,120,220
+"Sri Lanka","LK","LKA","144",2016,"Survey","National","2006",0.54,0,1.3,33,"Surveillance","National","2016",3.1,1.6,5.4,19,93,0,200,47,1,93
+"Sudan","SD","SDN","729",2016,"Survey","National","2017",2.9,1.7,4.1,79,"Survey","National","2017",13,8.6,17,76,1200,580,1900,600,410,780
+"Suriname","SR","SUR","740",2016,"Surveillance","National","2016",6.1,1.7,15,90,"Surveillance","National","2016",0,0,41,,11,2,19,6,0,11
+"Swaziland","SZ","SWZ","748",2016,"Survey","National","2009",8,3.1,13,96,"Survey","National","2009",36,29,44,93,660,340,980,400,260,540
+"Sweden","SE","SWE","752",2016,"Surveillance","National","2015",4,2.3,6.3,82,"Surveillance","National","2016",16,3.4,40,100,37,21,53,23,13,32
+"Switzerland","CH","CHE","756",2016,"Surveillance","National","2015",3.2,1.3,6.4,100,"Surveillance","National","2015",26,9.1,51,80,31,14,49,22,11,34
+"Syrian Arab Republic","SY","SYR","760",2016,"Survey","National","2003",8,4.9,11,78,"Surveillance","National","2016",24,16,35,70,370,230,510,160,110,210
+"Tajikistan","TJ","TJK","762",2016,"Surveillance","National","2016",22,21,24,93,"Surveillance","National","2016",45,40,50,100,2600,2100,3100,1200,1200,1300
+"Thailand","TH","THA","764",2016,"Survey","National","2012",2.2,1.5,2.9,91,"Survey","National","2012",24,16,32,79,4700,3000,6300,2800,2100,3500
+"The Former Yugoslav Republic of Macedonia","MK","MKD","807",2016,"Surveillance","National","2016",1.3,0.16,4.8,100,"Surveillance","National","2016",0,0,23,,6,0,12,3,0,6
+"Timor-Leste","TL","TLS","626",2016,"Model",,"2016",2.8,2.4,3.1,81,"Model",,"2016",13,10,15,90,210,130,280,100,88,110
+"Togo","TG","TGO","768",2016,"Model",,"2016",2.6,0.1,5.1,69,"Surveillance","National","2016",5.4,2.6,9.7,100,110,23,200,70,12,130
+"Tokelau","TK","TKL","772",2016,"Model",,"2016",5.5,3,8,76,"Model",,"2016",26,23,30,75,0,0,0,0,0,0
+"Tonga","TO","TON","776",2016,"Model",,"2016",5.5,3,8,76,"Model",,"2016",26,23,30,75,1,0,1,0,0,0
+"Trinidad and Tobago","TT","TTO","780",2016,"Model",,"2016",2.4,1.6,3.2,82,"Model",,"2016",11,9.1,14,95,9,7,11,8,6,9
+"Tunisia","TN","TUN","788",2016,"Surveillance","National","2016",0.93,0.45,1.7,69,"Surveillance","National","2016",4.2,0.88,12,100,45,19,71,15,7,24
+"Turkey","TR","TUR","792",2016,"Surveillance","National","2016",2.9,2.5,3.4,74,"Surveillance","National","2016",16,13,19,87,560,460,650,350,300,390
+"Turkmenistan","TM","TKM","795",2016,"Survey","National","2013",14,11,17,97,"Survey","National","2013",38,28,49,98,830,650,1000,360,300,420
+"Turks and Caicos Islands","TC","TCA","796",2016,"Model",,"2016",2.4,1.6,3.2,82,"Model",,"2016",11,9.1,14,95,0,0,0,0,0,0
+"Tuvalu","TV","TUV","798",2016,"Model",,"2016",5.5,3,8,76,"Model",,"2016",26,23,30,75,2,1,2,1,1,2
+"Uganda","UG","UGA","800",2016,"Survey","National","2011",1.6,0.78,2.4,88,"Survey","National","2011",12,3.4,21,100,1900,980,2900,1000,590,1400
+"Ukraine","UA","UKR","804",2016,"Surveillance","National","2016",27,26,27,83,"Surveillance","National","2016",47,46,48,87,21000,16000,26000,10000,10000,11000
+"United Arab Emirates","AE","ARE","784",2016,"Model",,"2016",2.4,1.6,3.2,82,"Surveillance","National","2013",0,0,52,,2,1,3,1,1,1
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826",2016,"Surveillance","National","2015",1.4,0.98,2,87,"Surveillance","National","2015",3.4,1.1,7.9,100,110,72,140,58,39,78
+"United Republic of Tanzania","TZ","TZA","834",2016,"Survey","National","2007",1.3,0.47,2.1,85,"Surveillance","National","2016",6.2,5.1,7.4,50,2600,630,4600,830,420,1200
+"United States of America","US","USA","840",2016,"Surveillance","National","2016",1.5,1.2,1.8,84,"Surveillance","National","2016",5.6,3.2,9.1,93,180,130,220,130,100,150
+"Uruguay","UY","URY","858",2016,"Surveillance","National","2016",0,0,0.69,,"Surveillance","National","2016",6,1.3,17,33,0,0,0,4,0,8
+"US Virgin Islands","VI","VIR","850",2016,"Model",,"2016",2.4,1.6,3.2,82,"Model",,"2016",11,9.1,14,95,0,0,0,,,
+"Uzbekistan","UZ","UZB","860",2016,"Survey","National","2011",24,18,30,96,"Survey","National","2011",63,50,75,99,10000,7600,13000,4700,4000,5400
+"Vanuatu","VU","VUT","548",2016,"Surveillance","National","2006",0,0,12,,"Model",,"2016",26,23,30,75,0,0,0,1,0,1
+"Venezuela (Bolivarian Republic of)","VE","VEN","862",2016,"Model",,"2016",2.9,1.4,4.5,90,"Model",,"2016",13,6.7,20,90,410,230,580,290,170,400
+"Viet Nam","VN","VNM","704",2016,"Survey","National","2012",4.1,2.6,5.5,98,"Surveillance","National","2016",26,25,27,89,8200,6100,10000,5500,4400,6600
+"Wallis and Futuna Islands","WF","WLF","876",2016,"Model",,"2016",5.5,3,8,76,"Model",,"2016",26,23,30,75,0,0,0,0,0,0
+"West Bank and Gaza Strip","PS","PSE","275",2016,"Model",,"2016",4.1,1.4,6.9,85,"Model",,"2016",16,13,18,95,3,1,4,,,
+"Yemen","YE","YEM","887",2016,"Survey","National","2011",2.3,0.92,3.7,74,"Survey","National","2011",18,8.7,28,82,360,180,550,190,100,280
+"Zambia","ZM","ZMB","894",2016,"Survey","National","2008",1.1,0.13,2.1,27,"Survey","National","2008",18,12,25,44,2100,1400,2900,1400,910,1900
+"Zimbabwe","ZW","ZWE","716",2016,"Survey","National","2016",4.6,3,6.2,39,"Survey","National","2016",14,8.9,20,45,1900,1300,2600,1300,950,1700

@@ -5,8 +5,8 @@ parameters<-list(
   pi=0.0193/365, #birth rate into the population, per year, for India in 2014
   i=0.97, #coverage of vaccination, BCG rate, for India average
   #mu = c( 1000000 , 100000,100000 ),
-  #mu = c( (1/70)/365 , (1/70)/365,(1/70)/365 ), # standard death rate, in India in 2014, if average life expectancy is 70
-  mu = c((1/68)/365, (1/63)/365, (1/53)/365 ) ,# age structured death rate, exp lifespan model, if life expectancy is 68
+  mu = c( (1/70)/365 , (1/70)/365,(1/70)/365 ), # standard death rate, in India in 2014, if average life expectancy is 70
+  #mu = c((1/68)/365, (1/63)/365, (1/53)/365 ) ,# age structured death rate, exp lifespan model, if life expectancy is 68
   tau_in = c(0, 1/(5*365), 1/(10*365)), # ageing parameters
   tau_out = c(1/(5*365), 1/(10*365), 0), # ageing parameters
   
@@ -97,10 +97,16 @@ TBmodel_3AgeClasses<-function(t,n,parameters){
     dIdt<-rep(0, times=3)
     dT_rdt<-rep(0, times=3)
     dS_rdt<-rep(0, times=3)
+    #calculate the new lamda for age structured model
+    #lamda=rho*(beta* (sum(I)+(o*sum(T_r)))/ N_tot ) # force of infection, homogenous mixing
+    
+    lamda<-0
     for(a in 1:3){
-      N[a]=S_v[a]+S_u[a]+L_a[a]+L_b[a]+I[a]+T_r[a]+S_r[a] #total population in age class a
-      lamda=iota[a]*rho*(beta* (sum(I)+(o*sum(T_r)))/ N_tot ) # force of infection, homogenous mixing
-      #lamda=rho*(beta* (sum(I)+(o*sum(T_r)))/ N_tot ) # force of infection, homogenous mixing
+      #N[a]=S_v[a]+S_u[a]+L_a[a]+L_b[a]+I[a]+T_r[a]+S_r[a] #total population in age class a
+      incr=iota[a]*rho*beta*(I[a]+(o*T_r[a]))/N_tot
+      lamda=lamda+incr
+    }
+    for(a in 1:3){
       
       # 
       # dS_vdt[a]=(i*pi*N_tot) - (mu*S_v[a]) - (alpha*lamda*S_v[a]) - (tau_out[a]*S_v[a])+(tau_in[a]*S_v[a-1])
